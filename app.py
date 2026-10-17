@@ -16,10 +16,13 @@ st.caption("Interactive sales analysis using the UCI Online Retail dataset")
 def load_data():
     if Path("Online_Retail.xlsx").exists():
         df = pd.read_excel("Online_Retail.xlsx")
+    elif Path("Online Retail.xlsx").exists():
+        df = pd.read_excel("Online Retail.xlsx")
     elif Path("Online_Retail.csv").exists():
         df = pd.read_csv("Online_Retail.csv", encoding="ISO-8859-1")
     else:
-        return None
+        st.error(f"Dataset not found. Files available: {list(Path('.').iterdir())}")
+        st.stop()
 
     df.columns = df.columns.str.strip()
 
