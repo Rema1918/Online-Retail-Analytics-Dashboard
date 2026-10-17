@@ -1,10 +1,9 @@
-Interactive Analytics Dashboard
-
-Project Overview
+**Interactive Analytics Dashboard**
+**Project Overview**
 
 This project develops an interactive analytics dashboard using Python, Streamlit, and Plotly to explore retail sales data. The dashboard allows users to filter data dynamically, monitor key performance indicators (KPIs), and understand sales trends through interactive visualizations.
 
-Objectives
+**Objectives**
 
 - Build an interactive and user-friendly analytics dashboard.
 - Provide dynamic filters for dates, categories, and numerical values.
@@ -13,20 +12,20 @@ Objectives
 - Allow users to explore data through interactive charts.
 - Handle empty filter results gracefully.
 
-Tools and Technologies
+**Tools and Technologies**
 
 - Python – data processing and application logic
 - Pandas – data manipulation and analysis
 - Streamlit – interactive dashboard development
 - Plotly – interactive data visualization
 
-Dataset
+**Dataset**
 
 The dashboard uses the UCI Online Retail dataset, which contains transaction details from an online retail business.
 
 Dataset Source: "UCI Machine Learning Repository – Online Retail" (https://archive.ics.uci.edu/dataset/352/online+retail)
 
-Key Features
+**Key Features**
 
 1. Interactive Filters
 
@@ -60,14 +59,14 @@ When no records match the selected filters, the dashboard displays a clear messa
 
 The dashboard is designed to provide a clear and accessible experience across different screen sizes.
 
-Project Structure
-
+**Project Structure
+**
 - "app.py" – main Streamlit dashboard application
 - "requirements.txt" – required Python libraries
 - "data/" – sample dataset used by the dashboard
 - "README.md" – project documentation
 
-How to Run the Project
+**How to Run the Project**
 
 1. Clone or download the repository.
 
@@ -81,13 +80,13 @@ How to Run the Project
 
 4. Open the local URL displayed in the terminal to access the dashboard.
 
-Expected Outcomes
+**Expected Outcomes**
 
 - Interactive exploration of retail sales data
 - Quick access to key business performance indicators
 - Improved understanding of sales trends and product performance
 - Dynamic visualizations based on user-selected filters
 
-Conclusion
+**Conclusion**
 
 This project demonstrates how interactive dashboards can make data analysis more accessible by combining dynamic filters, KPI metrics, and visualizations in a single application.
